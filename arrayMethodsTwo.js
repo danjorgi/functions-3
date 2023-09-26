@@ -88,7 +88,15 @@ let fruits = [
 */
 
 // CODE HERE
-
+fruits.forEach((item) => {
+  if (item.color === "red") {
+    return console.log(`The fruit with the index ${fruits.indexOf(item)} is an apple.`)
+  } else if (item.color === "orange") {
+    return console.log(`The fruit with the index ${fruits.indexOf(item)} is an orange.`)
+  } else  {
+    return console.log(`The fruit with the index ${fruits.indexOf(item)} is neither an apple or an orange.`)
+  }
+})
 
 
 /* 
@@ -102,7 +110,10 @@ let fruits = [
 */
 
 // COPY AND PASTE THE RESULT FROM YOUR CONSOLE (NODE CONSOLE IS YOUR TERMINAL) HERE (AS A MULTI LINES COMMENT)
-
+// The fruit with the index 0 is neither an apple or an orange.
+// The fruit with the index 1 is an orange.
+// The fruit with the index 2 is neither an apple or an orange.
+// The fruit with the index 3 is an apple.
 
 
 ////////// PROBLEM 5 //////////
