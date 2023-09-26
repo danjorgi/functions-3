@@ -103,7 +103,8 @@ const orders = [{"price":15,"tax":0.09},{"price":42,"tax":0.07},{"price":56,"tax
 */
 
 // CODE HERE
-
+const totalPriceAfterTax = orders.map((num) => num.price + (num.price * num.tax))
+console.log(totalPriceAfterTax)
 
 
 ////////// PROBLEM 6 //////////
