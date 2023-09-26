@@ -23,7 +23,8 @@ numbers.forEach((number) => console.log(number / 2))
 */
 
 // CODE HERE
-
+let dividedNumbers = numbers.map((number) => number / 2)
+console.log(dividedNumbers)
 
 ////////// PROBLEM 3 //////////
 
