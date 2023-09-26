@@ -158,7 +158,10 @@ let foods = [
 */
 
 // CODE HERE
+let totalPrice = foods.filter((food) => food.tags.includes("rice")).reduce((a, c) => a + c.price, 0)
+console.log(totalPrice)
 
+36
 
 // THE TOTAL
 
