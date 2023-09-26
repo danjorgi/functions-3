@@ -51,7 +51,8 @@ let cities = [
 */
 
 // CODE HERE
-
+let citiesWithI = cities.filter((city) => city.charAt(city.length - 1) === "i")
+console.log(citiesWithI)
 
 ////////// PROBLEM 4 //////////
 
