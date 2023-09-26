@@ -59,8 +59,8 @@ const populations = [8175133, 3792621, 2695598, 2100263];
 */
 
 // CODE HERE
-const totalPopulation //  = populations.reduce(/* Provide Your Callback Here */)
-
+const totalPopulation = populations.reduce((acc, cur) => acc + cur )
+console.log(totalPopulation)
 
 
 ////////// PROBLEM 4 //////////
