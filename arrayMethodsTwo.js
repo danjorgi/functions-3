@@ -10,7 +10,7 @@ let numbers = [40, 68, 14, 90, 49];
 */
 
 // CODE HERE
-
+numbers.forEach((number) => console.log(number / 2))
 
 ////////// PROBLEM 2 //////////
 
